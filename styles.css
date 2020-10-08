@@ -10,6 +10,7 @@ header {
     background: #4ab9bd;
     color:#2c567a;
     padding: 50px;
+    width:100%;
     text-align: center;
     font-size:50px;
 }
@@ -20,16 +21,18 @@ body {
 
 .parent {
 position:relative;
-width:500px;
-height:700px;
-margin:100px auto;
+width:25%;
+height:70vh;
+top: 100px;
+left: 50%;
+transform: translateX(-50%);
 }
 
 .main {
     background-color:#273b4a;
     position : absolute;
-    height:700px;
-    width: 500px;
+    width:100%;
+    height:100%;
 }
 
 .tab1 {
@@ -146,8 +149,8 @@ margin:100px auto;
 .main2 {
     background-color:#4ab9bd;
     position : absolute;
-    width:500px;
-    height: 700px;
+    width:100%;
+    height: 100%;
     left:0px;
     top:0px;
     
