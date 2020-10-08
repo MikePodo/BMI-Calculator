@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>BMI Calculator</header>
+<div class="parent">
+    <div class="main">
+    <div class="tab1">Imperial</div>
+    <div id="form1">
+        <form>
+            <span>Weight (lbs):</span><br>
+            <input id="form1_input" type="text" >
+        </form>
+    </div>
+    <div id="form2">
+        <form>
+            <span>Height (feet):</span><br>
+            <input id="form2_input" type="text"><br>
+            <span>Height (inches):</span><br>
+            <input id="form3_input" type="text"><br>
+        </form>
+    </div>
+    <button class="calc">Calculate</button>
+    <div class="result">
+        <p id="result"></p>
+    </div></div>
+    <button class="reset">Reset</button>
+    <div class="main2">
+        <div class="tab2">Metric</div>
+        <div id="form4">
+            <form>
+                <span>Weight (kg):</span><br>
+                <input id="form4_input" type="text" >
+            </form>
+        </div>
+        <div id="form5">
+            <form>
+                <span>Height (meters):</span><br>
+                <input id="form5_input" type="text"><br>
+            </form>
+        </div>
+        <button class="calc2">Calculate</button>
+        <div class="result2">
+            <p id="result2"></p>
+        </div>
+        <button class="reset2">Reset</button>
+    </div>
+</div>
+
+
+<script src="app.js" charset="utf-8"></script>
+    
+</body>
+</html>
