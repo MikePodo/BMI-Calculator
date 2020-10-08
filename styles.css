@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+}
+
+header {
+    background: #4ab9bd;
+    color:#2c567a;
+    padding: 50px;
+    text-align: center;
+    font-size:50px;
+}
+
+body {
+    background: #2c567a;
+}
+
+.parent {
+position:relative;
+width:500px;
+height:700px;
+margin:100px auto;
+}
+
+.main {
+    background-color:#273b4a;
+    position : absolute;
+    height:700px;
+    width: 500px;
+}
+
+.tab1 {
+    background: #273b4a;
+    position: absolute;
+    top: -30px;
+    width:100px;
+    height: 40px;
+    border-radius : 10px;
+    padding: 5px;
+    text-align: center;
+    color: #4ab9bd;
+}
+.tab1:hover {
+    cursor: pointer;
+}
+
+
+
+#form1 {
+    padding: 15px;
+    font-size: 30px;
+    color: #4ab9bd;
+}
+
+#form1_input {
+    margin-top: 10px;
+    height:50px;
+    width: 300px;
+    color: #273b4a;
+    font-size:30px;
+}
+
+#form1_input:focus, #form2_input:focus, #form3_input:focus {
+    box-shadow: 1px 1px 10px #4ab9bd;
+}
+
+#form1_input:hover, #form2_input:hover, #form3_input:hover {
+    transform: scale(1.05);
+    transition-timing-function: linear;
+    transition-duration: 0.05s;
+}
+
+
+#form2 {
+    padding:15px;
+    font-size:30px;
+    color: #4ab9bd;
+}
+
+#form2_input {
+    margin-top:10px;
+    margin-bottom:10px;
+    height:30px;
+    width:250px;
+    color: #273b4a;
+    font-size: 30px;
+}
+
+#form3_input {
+    margin-top:10px;
+    margin-bottom:10px;
+    height:30px;
+    width:250px;
+    color: #273b4a;
+    font-size: 30px;
+}
+
+.calc {
+    margin-left: 15px;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: #273b4a;
+}
+
+.calc:hover {
+    cursor: pointer;
+    border: 3px solid #4ab9bd;
+}
+
+.calc:focus {
+    border:none;
+}
+
+#result {
+    margin-top: 50px;
+    padding: 15px;
+    font-size:40px;
+    color:#4ab9bd;
+    text-align: center;
+}
+
+.reset {
+    margin-left: 175px;
+    width:150px;
+    height:50px;
+    font-size:25px;
+    color:#273b4a;
+}
+
+.reset:hover {
+    cursor: pointer;
+    border: 3px solid #4ab9bd;
+}
+.reset:focus {
+    border:none;
+}
+
+
+
+
+
+.main2 {
+    background-color:#4ab9bd;
+    position : absolute;
+    width:500px;
+    height: 700px;
+    left:0px;
+    top:0px;
+    
+}
+
+.tab2 {
+    background: #4ab9bd;
+    position: absolute;
+    left:100px;
+    top: -30px;
+    width:100px;
+    height: 40px;
+    border-radius : 10px;
+    padding: 5px;
+    text-align: center;
+    color: #273b4a;
+}
+.tab2:hover {
+    cursor: pointer;
+}
+
+
+
+#form4 {
+    padding: 15px;
+    font-size: 30px;
+    color: #273b4a;
+}
+
+#form4_input {
+    margin-top: 10px;
+    height:50px;
+    width: 300px;
+    color: #273b4a;
+    font-size:30px;
+}
+
+#form4_input:focus, #form5_input:focus {
+    box-shadow: 1px 1px 10px #273b4a;
+}
+
+#form4_input:hover, #form5_input:hover {
+    transform: scale(1.05);
+    transition-timing-function: linear;
+    transition-duration: 0.05s;
+}
+
+
+#form5 {
+    padding:15px;
+    font-size:30px;
+    color:  #273b4a;
+}
+
+#form5_input {
+    margin-top:10px;
+    margin-bottom:10px;
+    height:30px;
+    width:250px;
+    color: #273b4a;
+    font-size: 30px;
+}
+
+.calc2 {
+    margin-left: 15px;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: #273b4a;
+}
+
+.calc2:hover {
+    cursor: pointer;
+    border: 3px solid  #273b4a;
+}
+
+.calc2:focus {
+    border:none;
+}
+
+#result2 {
+    margin-top: 50px;
+    padding: 15px;
+    font-size:40px;
+    color: #273b4a;
+    text-align: center;
+}
+
+.reset2 {
+    margin-left: 175px;
+    width:150px;
+    height:50px;
+    font-size:25px;
+    color:#273b4a;
+}
+
+.reset2:hover {
+    cursor: pointer;
+    border: 3px solid  #273b4a;
+}
+.reset2:focus {
+    border:none;
+}
