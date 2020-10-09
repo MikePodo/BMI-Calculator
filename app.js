@@ -4,7 +4,6 @@ function clear (){
     document.getElementById("form3_input").value = '';
     document.getElementById("form4_input").value = '';
     document.getElementById("form5_input").value = '';
-
 }
 
 const calculateButton = document.querySelector(".calc");
@@ -61,7 +60,7 @@ function calculate () {
     result.style.visibility = "visible";
     resetButton1.style.visibility = "visible";
    result1.innerHTML =  "Your BMI is " + finalEquation.toFixed(1) +".<br>" + "You are considered " + evaluation + "." ;
-
+   calculateButton.blur()
 }
 
 function calculate2 () {
@@ -90,7 +89,7 @@ function calculate2 () {
     result2.style.visibility = "visible";
     resetButton2.style.visibility = "visible";
    result2.innerHTML =  "Your BMI is " + finalEquation.toFixed(1) +".<br>" + "You are considered " + evaluation + "." ;
-
+   calculateButton2.blur()
 }
 
 function doReset () {
@@ -98,7 +97,7 @@ function doReset () {
     result1.innerHTML = "";
     resetButton1.style.visibility = "hidden";
     result2.innerHTML = "";
-    resetButton2.style.visiblity = "hidden";
+    resetButton2.style.visibility = "hidden";
 }
 
 
