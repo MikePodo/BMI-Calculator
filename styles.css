@@ -22,7 +22,7 @@ body {
 .parent {
 position:relative;
 width: 45vh;
-height:70vh;
+height:90vh;
 top: 100px;
 left: 50%;
 transform: translateX(-50%);
@@ -127,7 +127,9 @@ transform: translateX(-50%);
 }
 
 .reset {
-    margin-left: 175px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
     width:150px;
     height:50px;
     font-size:25px;
@@ -240,7 +242,9 @@ transform: translateX(-50%);
 }
 
 .reset2 {
-    margin-left: 175px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
     width:150px;
     height:50px;
     font-size:25px;
